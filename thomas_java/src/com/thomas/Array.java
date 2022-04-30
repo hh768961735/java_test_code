@@ -22,7 +22,7 @@ public class Array {
         myList[6] = 34.0;
         myList[7] = 45.45;
         myList[8] = 99.993;
-        myList[9] = 99.993;
+        myList[9] = 1;
 
         double total = 0;
         // for循环
@@ -34,8 +34,8 @@ public class Array {
         for (double el: myList) {
             System.out.println(el);
         }
-
         System.out.println(total);
-           
+
+
     }
 }

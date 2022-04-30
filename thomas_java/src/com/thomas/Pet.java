@@ -2,7 +2,7 @@ package com.thomas;
 
 /**
  * @Author: Thomas
- * @Description:
+ * @Description: 构造器重载
  * @Date: Created in 21:30 2022/4/24
  * @Modified By:
  */

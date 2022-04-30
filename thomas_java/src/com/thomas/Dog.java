@@ -21,5 +21,5 @@ public class Dog implements Animal {
         Dog d = new Dog();
         d.eat();
         d.speak();
-    }
+    }/**/
 }
