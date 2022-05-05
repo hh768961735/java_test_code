@@ -20,9 +20,14 @@ public class Cat implements Animal {
         System.out.println("喵喵喵！！！");
     }
 
+    protected void play(){
+        System.out.println("我喜欢玩");
+    }
+
     public static void main(String[] args) {
         Cat c = new Cat();
         c.eat();
         c.speak();
+        c.play();
     }
 }

@@ -34,14 +34,16 @@ public class Funreload {
 
         System.out.println(result2);
 
-        double result3 = funreload.test(1, 1);
+        double result3 = funreload.test(1, 1.1);
 
         System.out.println(result3);
 
-
-        float result4 = funreload.test(1, 1);
+        float result4 = (float) funreload.test(1.1, 1);
 
         System.out.println(result4);
 
+//        double result5 = funreload.test(1.2, 1.1f);
+//
+//        System.out.println(result5);
     }
 }
